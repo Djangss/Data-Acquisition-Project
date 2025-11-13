@@ -1,0 +1,18 @@
+What worked
+
+well : Good at optimizing performance, debugging errors. Excellent technical solutions for web scraping, spatial calculations, and data visualization.
+
+
+bad : Solutions were sometimes overly complex and needed simplification. Made false assumptions about data formats and layout 
+
+Prompts :
+
+Create a function to scrape individual volcano pages and extract latitude, longitude, elevation, volcano type, and volcano number from the HTML structure. Handle missing data gracefully.
+
+The scraping takes 25 minutes for 1,400 volcanoes. Implement parallel processing using ThreadPoolExecutor.
+
+I need to find the nearest volcano to each earthquake. Is there a optimized way of comparing two spatial location ?
+
+Make a scatter plot of earthquake magnitude vs distance to nearest volcano, with color gradient representing magnitude intensity.
+
+Add a world map visualization showing earthquakes (blue circles sized by magnitude) and volcanoes (red triangles) with continents, coastlines, and borders as background layers.
